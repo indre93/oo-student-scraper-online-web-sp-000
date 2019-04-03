@@ -14,8 +14,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    students_array = @@all
-    students_array[0]
+    @@all
     binding.pry
   end
 
